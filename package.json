@@ -1,0 +1,19 @@
+{
+  "name": "elysia",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@elysiajs/node": "^1.4.5",
+    "elysia": "^1.4.28"
+  },
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "tsx": "^4.22.0",
+    "typescript": "^6.0.3"
+  }
+}
